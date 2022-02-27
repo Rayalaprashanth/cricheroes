@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="container-flex bg-image b">
+    <!-- <h1>CricHeroes</h1> -->
+
+    <nav>
+      <!-- Brand -->
+      <div>
+        <!-- Links -->
+        <ul class="navbar-nav ul">
+          <a class="navbar-brand" href="#">
+            <img class="img" src="https://media.gettyimages.com/vectors/cricket-logo-vector-id467029165" alt=""
+              width="50px" height="50px">
+          </a>
+
+          <li class="nav-item li">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item li">
+            <a class="nav-link" routerLink="/contactus">ContactUs</a>
+          </li>
+          <li class="nav-item li">
+            <a class="nav-link" routerLink="/aboutus">AboutUs</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item li">
+            <a class="nav-link dropdown-toggle" routerLink="/cricapps" id="navbardrop" data-toggle="dropdown">
+              CricApps
+            </a>
+            <div class="dropdown-menu dropdown-options">
+              <a class="dropdown-item a " routerLink="/cricapps/wcc">WCC 1</a>
+              <a class="dropdown-item a" routerLink="/cricapps/wcc2">WCC 2</a>
+              <a class="dropdown-item a" routerLink="/cricapps/wcc3">WCC 3</a>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+
+      <h1>CricHeroes</h1>
+
+      <div class="s">
+        <ul class="signing-container list-unstyled">
+          <li clsas="nav-item">
+            <a class="nav-link" routerLink="/signin">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+ 
+</body>
+
+<footer>
+  <div class=" justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
+      <div class="col-12">
+          <div class="row row-2">
+              <div class="col-sm-3 text-md-center">
+                  <h5><span> <i class="fa fa-firefox text-light" aria-hidden="true"></i></span><b>CricHeroes</b></h5> <img src="../assets/images/cricket.jpg" alt="" width="150px" height="100px">
+              </div>
+              <div class="col-sm-3 my-sm-0 mt-5">
+                  <ul class="list-unstyled">
+                    <h5>MOBILE SITE & APPS</h5>
+                      <li class="fli"> <img src="https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-globe-icon-png-image_4143989.jpg" alt="" width="15px" height="15px"> m.cricheroes.com</li>
+                      <li class="fli"> <img src="https://cdn-icons-png.flaticon.com/512/38/38005.png" alt="" width="15px" height="15px"> Android</li>
+                      <li class="fli"> <img src="https://www.mikeklidjian.com/wp-content/uploads/2018/10/apple-emblem.jpg" alt="" width="15px" height="15px"> iOS</li>
+                  </ul>
+              </div>
+              <div class="col-sm-3 my-sm-0 mt-5">
+                  <ul class="list-unstyled">
+                    <h5>FOLLOW US ON</h5>
+                      <li class="fli"><img src="https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-black-2019.png" alt="" width="15px" height="15px"> facebook</li>
+                      <li class="fli"><img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" alt="" width="15px" height="15px"> twitter</li>
+                      <li class="fli"><img src="https://cdn-icons-png.flaticon.com/512/152/152810.png" alt="" width="15px" height="15px"> youtube
+                      </li>
+                      <li class="fli"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_gr8Vjt1vTZozp2mLiOcr1nUAxH6scs9nPatpEjuRyzc56rqiyInGodtYbpD9PFQ8VQ&usqp=CAU://assets.website-files.com/5e1d7aa6d91bf4c73f14801b/61d7ec7a7bf4109a1f0dbf62_6b326b27941cef130da0824d341b6333.jpg" alt="" width="15px" height="15px"> Pinterest</li>
+                  </ul>
+              </div>
+              <div class="col-sm-3 my-sm-0 mt-5">
+                  <ul class="list-unstyled">
+                    <h5>COMPANY</h5>
+                      <li class="fli">Careers
+                      </li>
+                      <li class="fli">Advertise</li>
+                      <li class="fli">Privacy Policy</li>
+                      <li class="fli">Terms of Use</li>
+                      <li class="fli">Cricheroes TV Ads</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="pb-1 mt-3 justify-content-center row-1">
+        <div class="col-12">
+            <div class="row my-4 row-1 no-gutters">
+              <div class="col-sm-3 col-auto text-center mt-2" ><small>&#9400; 2022 Cricheroes.com, Times Internet Limited. </small></div>
+                <div class="col-md-3 col-auto "></div>
+                <div class="col-md-3 col-auto"></div>
+                <div class="col my-auto text-md-left text-right "> <small> CricHeroes.com <span><img src="https://i.imgur.com/TtB6MDc.png" class="img-fluid " width="25"></span> <span><img src="https://i.imgur.com/N90KDYM.png" class="img-fluid " width="25"></span></small> </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+</html>

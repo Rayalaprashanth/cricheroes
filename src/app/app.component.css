@@ -1,0 +1,104 @@
+
+
+.bg-image
+{   height: 100%;
+    background-image: url("https://media.istockphoto.com/photos/cricket-batsman-picture-id505583215?b=1&k=20&m=505583215&s=170667a&w=0&h=-NxDIiJx8mCV7y5qydWV-hr5YknfI6YsYIf6sdhj1tw=");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    margin-right: 160px;
+    color: white;
+    text-align: center;
+    align-self: center;
+    /* background-color: rgb(25, 68, 16); */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    font-size: 14px;
+    padding: 5px 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(112, 17, 17);
+}
+
+.dropdown-options{
+    background-color: #2a2a2b;
+}
+
+.img{
+    border-radius: 100%;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.a{
+    width: 90%;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.li{
+    align-self: center;
+    margin-bottom: 0;
+}
+
+a{
+    color: white;
+    margin: 0 8px;
+    
+}
+
+.signing-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.s{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+footer {
+    color: #fcfdfd !important;
+}
+
+.Careers {
+    cursor: pointer;
+    color: #1E88E5
+}
+
+.row-1 {  
+    background-color: #1b1d1f !important;
+}
+
+.row-2 {
+    background-color: #1d1e1f !important
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+}
+
+.fli{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h5{
+    font-weight: bold;
+    margin-bottom: 20px;
+}

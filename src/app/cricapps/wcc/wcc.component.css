@@ -1,0 +1,31 @@
+.card-footer,.card-header
+{
+    background-color: rgb(129, 129, 129);
+   
+}
+
+.customCard{
+    border: 2px solid white;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5{
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+li{
+    color: black;
+}

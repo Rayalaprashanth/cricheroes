@@ -1,0 +1,28 @@
+#demo{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
+
+.cards{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.customCont{
+    padding: 20px;
+}
+
+.customCard{
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 8px;
+}
